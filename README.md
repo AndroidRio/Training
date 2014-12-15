@@ -2,7 +2,7 @@
 ADI aims to provide a powerful tool to retrieve information about the android device being used.
 
 ## Features
- **Retrieve the following information about the device's network:**
+ **Retrieve the following information about the device's network**
  * MSISDN
  * IMSI
  * Status
@@ -15,6 +15,24 @@ ADI aims to provide a powerful tool to retrieve information about the android de
  * Several other informations can be retrieved.
  
 ## Usage
+
+### Android Manifest
+``` xml
+<manifest>
+    <!-- These are the permissions that you might need depending on the methods that you might access on this library. -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!-- This library has a utility class called FileUtilities to help you save the the JSON locally if you want to. If you want to use this funcionality, you will need the permission below in your manifest. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	...
+</manifest>
+```
 
 ### Available methods
 ``` java

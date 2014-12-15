@@ -2,7 +2,7 @@
 ADI aims to provide a powerful tool to retrieve information about the android device being used.
 
 ## Features
- ** Retrieve the following information about the device's network **
+ **Retrieve the following information about the device's network**
  * MSISDN
  * IMSI
  * Status

@@ -1,7 +1,7 @@
 # Android Device Info
 ADI aims to provide a powerful tool to retrieve information about the android device being used.
 
-**Upcoming changes
+**Upcoming changes**
 * Battery information.
 
 ## Features

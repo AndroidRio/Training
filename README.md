@@ -18,7 +18,10 @@ ADI aims to provide a powerful tool to retrieve information about the android de
  * Several other informations can be retrieved.
  
 ## Usage
-
+``` java
+AndroidInfoFacade.getNetworkInfo(context, listener); //This returns a bean with network info.
+AndroidInfoFacade.getSentSmsHistory(context).getJson(); //This will return a String with history info about the sent SMS messages in a json format.
+```
 ### Android Manifest
 ``` xml
 <manifest>
@@ -35,12 +38,6 @@ ADI aims to provide a powerful tool to retrieve information about the android de
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	...
 </manifest>
-```
-
-### Available methods
-``` java
-AndroidInfoFacade.getNetworkInfo(context, listener); //This returns a bean with network info.
-AndroidInfoFacade.getSentSmsHistory(context).getJson(); //This will return a String with history info about the sent SMS messages in a json format.
 ```
 
 ## Observations

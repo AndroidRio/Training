@@ -1,9 +1,4 @@
-Training
-========
-
-Repositório de Treinamento
-
-# ! Android Device Info
+# Android Device Info
 ADI aims to provide a powerful tool to retrieve information about the android device being used.
 
 ## Features
@@ -17,6 +12,7 @@ ADI aims to provide a powerful tool to retrieve information about the android de
  * Preferential network (Not yet possible)
  * Bit error rate
  * Carrier
+ * Several other informations can be retrieved.
  
 ## Usage
 

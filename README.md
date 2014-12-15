@@ -6,16 +6,9 @@ ADI aims to provide a powerful tool to retrieve information about the android de
 
 ## Features
  **Retrieve the following information about the device's network**
- * MSISDN
- * IMSI
- * Status
- * Detailed status
- * Available networks (To be implemented)
- * Current network type
- * Preferential network (Not yet possible)
- * Bit error rate
- * Carrier
- * Several other informations can be retrieved.
+ * Network information.
+ * Call, SMS and MMS history.
+ * Device information.
  
 ## Usage
 ``` java
